@@ -770,8 +770,6 @@ int main() {
 
     case 2: 
 
-        // Single simulation mode
-
         int times;
 
         cout << "This is a simulation of prisoner problem solved with the method above (1. prisoner chooses first box, the number in the box is the next box.)" << endl;
