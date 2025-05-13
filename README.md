@@ -60,3 +60,5 @@ The simulation implements the mathematically proven optimal strategy:
 - `stats_hundrets_times()`: Executes 10,000 total simulations (100 batches of 100)  
 - `customSimulation4/9/16/36/64/100()`: Interactive simulations for N prisoners (N=4 to 100) with user-input box selection 
 
+
+*Open reuse - @KoscAnt*  
