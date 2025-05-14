@@ -1,6 +1,6 @@
 # 100-prisoners-problem-simulator
 
-A C++ implementation of the classic 100 Prisoners Problem, demonstrating the counterintuitive ~31% success probability achievable through optimal strategy.
+A C++ implementation of the 100 Prisoners Problem that illustrates how an optimal strategy can surprisingly lead to a ~31% success rate.
 
 ## Mathematical Background
 This C++ program simulates the **100 Prisoners Problem**, a classic probability puzzle that demonstrates a surprising statistical phenomenon:
@@ -10,8 +10,8 @@ This C++ program simulates the **100 Prisoners Problem**, a classic probability 
 - Prisoners may open **up to 50 boxes** (N/2 attempts)
 - **All prisoners succeed** only if every one finds their number within the limit
 
-- The optimal **follow-the-cycle strategy** yields a success probability of ~31%, vastly higher than random guessing (which would be (1/2)^100 ≈ 8×10⁻³¹%).
-
+Using the so-called cycle-following strategy, the group has about a 31% chance of success, which is significantly better than random guessing—where the odds are practically zero, around (1/2)^100 ≈ 8×10⁻³¹.
+  
 ## How It Works
 The simulation implements the mathematically proven optimal strategy:
 1. Each prisoner starts by opening the box labeled with their own number
