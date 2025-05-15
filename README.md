@@ -3,7 +3,7 @@
 A C++ implementation of the 100 Prisoners Problem that illustrates how an optimal strategy can surprisingly lead to a ~31% success rate.
 
 ## Mathematical Background
-This C++ program simulates the **100 Prisoners Problem**, a classic probability puzzle that demonstrates a surprising statistical phenomenon:
+This C++ program simulates the **100 Prisoners Problem**, a classic probability puzzle:
 
 - **100 prisoners** must individually find their number in **100 boxes**
 - Each box contains a **random permutation** of numbers 1-100
